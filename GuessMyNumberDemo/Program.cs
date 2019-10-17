@@ -54,6 +54,7 @@ namespace GuessMyNumberDemo
             Console.WriteLine("hint: I picked " + thepick + "\n\n");
 
             // Try at least one, and keep going, see Instructions
+
             do
             {
                 numtrys++;
@@ -91,7 +92,7 @@ namespace GuessMyNumberDemo
             }
 
 
-            Console.ReadKey();
+            Console.ReadKey();  // Done
          
 
         }  // Main
